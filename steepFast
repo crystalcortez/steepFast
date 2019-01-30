@@ -1,0 +1,14 @@
+function setup() {
+createCanvas(500,500, WEBGL);
+	
+
+}
+
+function draw() {
+	background(100);
+stroke(153);
+  line(50, 50, 70, 50);
+  line(p2, p3, p2, p2);
+  line(p2, p2, p3, p2);
+  line(p3, p2, p3, p3);
+}
